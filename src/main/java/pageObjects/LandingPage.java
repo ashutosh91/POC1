@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,10 +14,24 @@ public class LandingPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(css="#homepage > header > div.tools > div > nav > ul > li:nth-child(4) > a > span")
+	@FindBy(css = "#homepage > header > div.tools > div > nav > ul > li:nth-child(4) > a > span")
 	WebElement login;
+	
+	@FindBy(css = "#content > div > div > h2")
+	WebElement title;
+	
+	@FindBy(css = "#homepage > header > div.navbar.navbar-default.navbar-static-top > div > nav > ul")
+	WebElement navbar;
 
 	public WebElement getLogin() {
 		return login;
+	}
+	
+	public WebElement getTitle() {
+		return title;
+	}
+	
+	public WebElement getNavBar() {
+		return navbar;
 	}
 }

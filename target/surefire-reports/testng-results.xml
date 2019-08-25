@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78924" started-at="2019-08-25T07:17:51Z" finished-at="2019-08-25T07:19:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="78924" started-at="2019-08-25T07:17:51Z" finished-at="2019-08-25T07:19:10Z">
+      <class name="Self.POC1.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.HomePage@783e6358]" name="initialize" is-config="true" duration-ms="4541" started-at="2019-08-25T07:17:51Z" finished-at="2019-08-25T07:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.ValidateNavBar@17550481]" name="initialize" is-config="true" duration-ms="11601" started-at="2019-08-25T07:17:56Z" finished-at="2019-08-25T07:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.ValidateTitle@735f7ae5]" name="initialize" is-config="true" duration-ms="13401" started-at="2019-08-25T07:18:07Z" finished-at="2019-08-25T07:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@783e6358]" name="basePageNavigation" duration-ms="21823" started-at="2019-08-25T07:18:21Z" data-provider="getData" finished-at="2019-08-25T07:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@783e6358]" name="basePageNavigation" duration-ms="13080" started-at="2019-08-25T07:18:43Z" data-provider="getData" finished-at="2019-08-25T07:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[78945]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@783e6358]" name="basePageNavigation" duration-ms="9369" started-at="2019-08-25T07:18:56Z" data-provider="getData" finished-at="2019-08-25T07:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[third@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36547]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.HomePage@783e6358]" name="teardown" is-config="true" duration-ms="2326" started-at="2019-08-25T07:19:05Z" finished-at="2019-08-25T07:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.ValidateNavBar@17550481]" name="teardown" is-config="true" duration-ms="2342" started-at="2019-08-25T07:19:07Z" finished-at="2019-08-25T07:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.ValidateTitle@735f7ae5]" name="teardown" is-config="true" duration-ms="318" started-at="2019-08-25T07:19:10Z" finished-at="2019-08-25T07:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Self.POC1.HomePage -->
+      <class name="Self.POC1.ValidateTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Self.POC1.ValidateTitle@735f7ae5]" name="basePageNavigation" duration-ms="42" started-at="2019-08-25T07:19:05Z" finished-at="2019-08-25T07:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Self.POC1.ValidateTitle -->
+      <class name="Self.POC1.ValidateNavBar">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Self.POC1.ValidateNavBar@17550481]" name="basePageNavigation" duration-ms="37" started-at="2019-08-25T07:19:05Z" finished-at="2019-08-25T07:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Self.POC1.ValidateNavBar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

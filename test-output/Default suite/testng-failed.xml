@@ -5,7 +5,9 @@
     <classes>
       <class name="Self.POC1.HomePage">
         <methods>
-          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="basePageNavigation" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- Self.POC1.HomePage -->
     </classes>
