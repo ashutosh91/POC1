@@ -1,0 +1,12 @@
+11:51:13.865 [main] INFO  Resources.Base - Driver is initialized
+11:51:24.654 [main] INFO  Resources.Base - Successfully landed on the homepage
+11:51:35.249 [main] INFO  Resources.Base - Successfully landed on the homepage
+11:51:43.150 [main] INFO  Resources.Base - Successfully landed on the homepage
+11:51:47.740 [main] INFO  Resources.Base - Successfully validated the navigation bar
+11:51:47.780 [main] INFO  Resources.Base - Successfully validated the title
+12:13:05.426 [main] INFO  Resources.Base - Driver is initialized
+12:14:08.771 [main] INFO  Resources.Base - Successfully validated the navigation bar
+12:14:08.946 [main] INFO  Resources.Base - Successfully validated the title
+12:39:54.878 [main] INFO  Resources.Base - Driver is initialized
+12:40:28.610 [main] INFO  Resources.Base - Successfully validated the navigation bar
+12:40:37.284 [main] INFO  Resources.Base - Successfully validated the title
