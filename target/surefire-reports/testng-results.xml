@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="45110" started-at="2019-08-26T07:09:52Z" finished-at="2019-08-26T07:10:37Z">
+  <suite name="Suite" duration-ms="40153" started-at="2019-08-26T12:02:17Z" finished-at="2019-08-26T12:02:57Z">
     <groups>
     </groups>
-    <test name="Validating UserLogin" duration-ms="28072" started-at="2019-08-26T07:09:52Z" finished-at="2019-08-26T07:10:20Z">
+    <test name="Validating UserLogin" duration-ms="25404" started-at="2019-08-26T12:02:17Z" finished-at="2019-08-26T12:02:43Z">
       <class name="Self.POC1.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.HomePage@7ed7259e]" name="initialize" is-config="true" duration-ms="2589" started-at="2019-08-26T07:09:52Z" finished-at="2019-08-26T07:09:54Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.HomePage@647e447]" name="initialize" is-config="true" duration-ms="1427" started-at="2019-08-26T12:02:17Z" finished-at="2019-08-26T12:02:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@7ed7259e]" name="basePageNavigation" duration-ms="13885" started-at="2019-08-26T07:09:54Z" data-provider="getData" finished-at="2019-08-26T07:10:08Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@647e447]" name="basePageNavigation" duration-ms="10934" started-at="2019-08-26T12:02:19Z" data-provider="getData" finished-at="2019-08-26T12:02:30Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@7ed7259e]" name="basePageNavigation" duration-ms="5506" started-at="2019-08-26T07:10:08Z" data-provider="getData" finished-at="2019-08-26T07:10:14Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@647e447]" name="basePageNavigation" duration-ms="5922" started-at="2019-08-26T12:02:30Z" data-provider="getData" finished-at="2019-08-26T12:02:35Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@7ed7259e]" name="basePageNavigation" duration-ms="5959" started-at="2019-08-26T07:10:14Z" data-provider="getData" finished-at="2019-08-26T07:10:20Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Self.POC1.HomePage@647e447]" name="basePageNavigation" duration-ms="7004" started-at="2019-08-26T12:02:35Z" data-provider="getData" finished-at="2019-08-26T12:02:42Z">
           <params>
             <param index="0">
               <value>
@@ -59,39 +59,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.HomePage@7ed7259e]" name="teardown" is-config="true" duration-ms="103" started-at="2019-08-26T07:10:20Z" finished-at="2019-08-26T07:10:20Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.HomePage@647e447]" name="teardown" is-config="true" duration-ms="72" started-at="2019-08-26T12:02:42Z" finished-at="2019-08-26T12:02:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Self.POC1.HomePage -->
     </test> <!-- Validating UserLogin -->
-    <test name="Validating NavigationBar" duration-ms="3331" started-at="2019-08-26T07:10:25Z" finished-at="2019-08-26T07:10:28Z">
+    <test name="Validating NavigationBar" duration-ms="2384" started-at="2019-08-26T12:02:48Z" finished-at="2019-08-26T12:02:50Z">
       <class name="Self.POC1.ValidateNavBar">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.ValidateNavBar@6973b51b]" name="initialize" is-config="true" duration-ms="3155" started-at="2019-08-26T07:10:25Z" finished-at="2019-08-26T07:10:28Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.ValidateNavBar@333291e3]" name="initialize" is-config="true" duration-ms="2225" started-at="2019-08-26T12:02:48Z" finished-at="2019-08-26T12:02:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Self.POC1.ValidateNavBar@6973b51b]" name="basePageNavigation" duration-ms="60" started-at="2019-08-26T07:10:28Z" finished-at="2019-08-26T07:10:28Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Self.POC1.ValidateNavBar@333291e3]" name="basePageNavigation" duration-ms="45" started-at="2019-08-26T12:02:50Z" finished-at="2019-08-26T12:02:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.ValidateNavBar@6973b51b]" name="teardown" is-config="true" duration-ms="115" started-at="2019-08-26T07:10:28Z" finished-at="2019-08-26T07:10:28Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.ValidateNavBar@333291e3]" name="teardown" is-config="true" duration-ms="113" started-at="2019-08-26T12:02:50Z" finished-at="2019-08-26T12:02:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Self.POC1.ValidateNavBar -->
     </test> <!-- Validating NavigationBar -->
-    <test name="Validating Title" duration-ms="3669" started-at="2019-08-26T07:10:33Z" finished-at="2019-08-26T07:10:37Z">
+    <test name="Validating Title" duration-ms="2334" started-at="2019-08-26T12:02:55Z" finished-at="2019-08-26T12:02:57Z">
       <class name="Self.POC1.ValidateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.ValidateTitle@6e171cd7]" name="initialize" is-config="true" duration-ms="3494" started-at="2019-08-26T07:10:33Z" finished-at="2019-08-26T07:10:37Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Self.POC1.ValidateTitle@59fd97a8]" name="initialize" is-config="true" duration-ms="2169" started-at="2019-08-26T12:02:55Z" finished-at="2019-08-26T12:02:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Self.POC1.ValidateTitle@6e171cd7]" name="basePageNavigation" duration-ms="54" started-at="2019-08-26T07:10:37Z" finished-at="2019-08-26T07:10:37Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Self.POC1.ValidateTitle@59fd97a8]" name="basePageNavigation" duration-ms="50" started-at="2019-08-26T12:02:57Z" finished-at="2019-08-26T12:02:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.ValidateTitle@6e171cd7]" name="teardown" is-config="true" duration-ms="119" started-at="2019-08-26T07:10:37Z" finished-at="2019-08-26T07:10:37Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Self.POC1.ValidateTitle@59fd97a8]" name="teardown" is-config="true" duration-ms="113" started-at="2019-08-26T12:02:57Z" finished-at="2019-08-26T12:02:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

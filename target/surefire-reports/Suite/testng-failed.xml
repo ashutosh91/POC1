@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Validating UserLogin(failed)">
+    <classes>
+      <class name="Self.POC1.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="basePageNavigation" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- Self.POC1.HomePage -->
+    </classes>
+  </test> <!-- Validating UserLogin(failed) -->
+  <test thread-count="5" verbose="0" name="Validating NavigationBar(failed)">
+    <classes>
+      <class name="Self.POC1.ValidateNavBar">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Self.POC1.ValidateNavBar -->
+    </classes>
+  </test> <!-- Validating NavigationBar(failed) -->
+  <test thread-count="5" verbose="0" name="Validating Title(failed)">
+    <classes>
+      <class name="Self.POC1.ValidateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Self.POC1.ValidateTitle -->
+    </classes>
+  </test> <!-- Validating Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->
