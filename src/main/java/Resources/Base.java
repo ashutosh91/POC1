@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Base {
 	
@@ -26,8 +27,13 @@ public class Base {
 		if(browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "/Users/ashu/Tools/chromedriver");
 			//System.setProperty("webdriver.chrome.driver", "E:\\program files\\chromedriver.exe");
-		    driver = new ChromeDriver();
 		    
+		    ChromeOptions chromeOptions = new ChromeOptions();
+		    chromeOptions.addArguments("--headless");
+		    //chromeOptions.setHeadless(true);
+			
+			driver = new ChromeDriver(chromeOptions);
+			
 		}
 /*		else if(browserName.equalsIgnoreCase"firefox") {
 			// firefox code
@@ -36,7 +42,8 @@ public class Base {
 			// IE code
 		}
 */	
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		
+		//driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		return driver;
 	
 	}
